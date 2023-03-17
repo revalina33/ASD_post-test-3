@@ -40,3 +40,13 @@ Untuk menghapus data admin bisa memilih pilihan ke 1,maka program akan menghapus
 
  
 Untuk mencari Riwayat pembelian pulsa berdasarkan nominal pulsa admin dapat memilih pilihan 3 lalu menginput jumlah pulsa yang ada di dalam Riwayat.jika tidak maka akan tampil tulisan Riwayat pulsa tidak di temukan.
+
+
+beberapa elemen dari program diatas
+1.)mempunyai 2 class yaitu,purchase dan purchasehistory
+2.)dalam class purchasehistory terdapat beberapa metode,yaitu
+   add_purchase(menambah jumlah pembelian),
+   print_history(menampilkan riwayat),
+   mencari_nominal,
+   dequeue(menghapus data dari paling kiri/pertama ditambahkan),dan 
+   display(digunakan untuk menampilkan data).
