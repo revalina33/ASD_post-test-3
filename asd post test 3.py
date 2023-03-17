@@ -1,4 +1,4 @@
-import time
+import time 
 
 class Purchase:
     def __init__(self, timestamp, amount):
@@ -139,19 +139,10 @@ class PurchaseHistory:
                 print("pilihan tidak tersedia")
 
 
-# Create a new purchase history
 history = PurchaseHistory()
 history.menu()
 
-class Node:
-    def _init_(self, data=None):
-        self.data = data
-        self.next = None
 
-class LinkedList:
-    def _init_(self):
-        self.head = None
-        self.tail = None
 
 
    
