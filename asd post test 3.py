@@ -27,18 +27,6 @@ class PurchaseHistory:
             print("Timestamp: " + str(current_purchase.timestamp) + ", Amount: " + str(current_purchase.amount))
             current_purchase = current_purchase.next
             
-    def hapus_pembelian(self, amount):
-        if self.head is None:
-            return
-        if self.head.amount == amount:
-            self.head = self.head.next
-            return
-        current = self.head
-        while current.next is not None:
-            if current.next.amount == amount:
-                current.next = current.next.next
-                return
-            current = current.next
             
     def cari_nominal(self, amount):
         current = self.head
